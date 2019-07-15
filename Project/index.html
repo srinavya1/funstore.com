@@ -1,0 +1,47 @@
+<html ng-app="project">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css">
+   <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    </head>
+    <!--<body  ng-controller="mainCtrl as mc"  background="blue">-->
+
+   <body  ng-controller="mainCtrl as mc" class="container" >
+    <div ng-include="mc.headerTemplate"></div>
+        <div ui-view></div>
+
+      <script src="app/directives/admmovies.js"></script>
+        <script src="app/app2.js"></script>
+          <script src="app/updatemovie/updatemovie.js"></script>
+          <script src="app/updategame/updategame.js"></script>
+        <script src="app/header/header.js"></script>
+        <script src="app/login/login.js"></script>
+        <script src="app/signup/signup.js"></script>
+        <script src="app/buy/buy.js"></script>
+        <script src="app/rent/rent.js"></script>
+        <script src="app/functions/functions.js"></script>
+        <script src="app/movies/movies.js"></script>
+        <script src="app/games/games.js"></script>
+        <script src="app/employee/employee.js"></script>
+        <script src="app/customer/customer.js"></script>
+        <script src="app/supplier/supplier.js"></script>
+        <script src="app/admin/admin.js"></script>
+        <script src="app/customerfunctions/customerfunctions.js"></script>
+        <script src="app/customermovies/customermovies.js"></script>
+        <script src="app/adminmovies/adminmovies.js"></script>
+        <script src="app/customergames/customergames.js"></script>
+        <script src="app/admingames/admingames.js"></script>
+        <script src="app/afterbuyone/afterbuyone.js"></script>
+        <script src="app/afterbuytwo/afterbuytwo.js"></script>
+        <script src="app/payment/payment.js"></script>
+        <script src="app/afterrentone/afterrentone.js"></script>
+        <script src="app/afterrenttwo/afterrenttwo.js"></script>
+        <script src="app/gamebuyone/gamebuyone.js"></script>
+        <script src="app/gamebuytwo/gamebuytwo.js"></script>
+        <script src="app/gamerentone/gamerentone.js"></script>
+        <script src="app/gamerenttwo/gamerenttwo.js"></script>
+    </body>
+<!--        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+--></html>

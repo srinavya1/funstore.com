@@ -1,0 +1,41 @@
+
+
+<div><button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotoadminfcn()"></button></div>
+<div class="homeclass textPadding"><b>Employee</b></div>
+<div class "col-lg-10">
+<table class="table table-hover" >
+<tr>
+  <th>Name</th>
+  <th>Address</th>
+  <th>Birthdate</th>
+  <th>sex</th>
+  <th>salary </th>
+  <th>shop name</th>
+
+</tr>
+<tr data-ng-repeat="emp in emplist" >
+<td>
+{{emp.name}}
+</td>
+<td>
+{{emp.address}}
+</td>
+<td>
+{{emp.birthdate}}
+</td>
+<td>
+{{emp.sex}}
+</td>
+<td>
+{{emp.salary}}
+</td>
+<td>
+{{emp.shopname}}
+</td>
+</tr>
+
+</table>
+
+
+
+</div>

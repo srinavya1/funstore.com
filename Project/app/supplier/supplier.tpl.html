@@ -1,0 +1,32 @@
+
+<div><button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotoadminfcn()"></button></div>
+  <div class="homeclass textPadding"><b>Supplier</b></div>
+<div class "col-lg-10">
+<table class="table table-hover" >
+<tr>
+    <th>sid</th>
+    <th>name</th>
+    <th>contact info</th>
+    <th>address</th>
+  </tr>
+  <tr data-ng-repeat="suplier in suplierlist" >
+<td>
+{{suplier.sid}}
+</td>
+<td>
+{{suplier.name}}
+</td>
+<td>
+{{suplier.contact}}
+</td>
+<td>
+{{suplier.address}}
+</td>
+
+</tr>
+
+</table>
+
+
+
+</div>

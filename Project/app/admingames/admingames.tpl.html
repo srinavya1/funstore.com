@@ -1,0 +1,40 @@
+<div>
+
+
+
+
+
+
+<div><button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotoadminmain()"></button></div>
+
+<!--begin--->
+<div data-ng-repeat="game in gamelist" >
+
+
+     <span class="col-md-6 mypadding">
+
+         <a href="#"><img src="{{game.id}}.jpeg" class="myimages"></a>
+         <div>
+         <p>Name:  {{game.Name}}</p>
+         </div>
+         <div>
+         <p>Actor: {{game.Genre}}</p>
+         </div>
+         <div>
+         <p>id: {{game.id}}</p>
+         </div>
+             <div>
+        <button class="btn btn-warning" ng-click="gotoupdate(game.id)">update</button>
+         <button class="btn btn-danger" ng-click="deletegame(game.id)">delete</button>
+         </div>
+     </span>
+</div>
+
+
+
+
+
+    <span><button class="btn btn-primary mybuttons" ng-click="agc.goToGames()">INSERT</button></span>
+    
+
+</div>

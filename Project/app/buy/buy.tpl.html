@@ -1,0 +1,34 @@
+
+
+
+<div class="col-lg-2"></div><div class="col-lg-8">
+    <div class="thumbnail">
+    
+        <img src="{{pid}}.jpeg" alt="Nature" style="width:100%">
+        <div class="caption">
+        <h1><center>  Buy Item <center></h1>
+        </div>
+        <div class="form-group row">
+              <label class="col-lg-2 control-label">name</label>
+              <div class="col-lg-8">
+                <input class="form-control"readonly placeholder="Name" type="text" ng-model="pname">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-lg-2 control-label">price</label>
+              <div class="col-lg-8">
+                <input class="form-control" readonly placeholder="price" type="text" ng-model="price">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-lg-2 control-label">date</label>
+              <div class="col-lg-8">
+                <input class="form-control" readonly placeholder="price" type="text" ng-model="dtime">
+              </div>
+            </div>
+                <div class="col-lg-2"></div><div class="form-group row">
+            <button class="btn btn-primary col-lg-2" ng-click="buy()">Buy item</button>
+            <button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotocustomerfunctions()"></button>
+</div>
+      </div>

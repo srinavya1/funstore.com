@@ -1,0 +1,43 @@
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Sign Up</legend>
+
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Username</label>
+      <div class="col-lg-4">
+        <input class="form-control" id="inputEmail" placeholder="Username" type="text" ng-model="username" required="required">
+      </div>
+    </div>
+
+      <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-4">
+        <input class="form-control" id="inputPassword" placeholder="Password" type="password" ng-model="password" required="required">
+      </div>
+    </div>
+
+      <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Confirm Password</label>
+      <div class="col-lg-4">
+        <input class="form-control" id="inputPassword" placeholder="Confirm Password" type="password" ng-model="password2" required="required">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputaddress" class="col-lg-2 control-label">Address</label>
+      <div class="col-lg-4">
+        <input class="form-control" id="inputEmail" placeholder="Address" type="text" ng-model="address" required="required">
+      </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+      <div class="col-lg-4 col-lg-offset-2">
+        <button type="reset" class="btn btn-default" ng-click="gotologin()">Cancel</button>
+        <button type="submit" class="btn btn-primary" ng-click="createuser()">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>

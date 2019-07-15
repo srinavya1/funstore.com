@@ -1,0 +1,40 @@
+<div id="content" class="new">
+<form class="form-horizontal">
+   <a href="#"><img src="{{pid}}.jpeg" class="myimages"></a>
+<div class="form-group">
+      <label class="col-lg-2 control-label">name</label>
+      <div class="col-lg-8">
+        <input class="form-control"readonly placeholder="Name" type="text" ng-model="pname">
+      </div>
+    </div>
+<!--
+      <div class="form-group">
+      <label class="col-lg-2 control-label">pid</label>
+      <div class="col-lg-8">
+        <input class="form-control" placeholder="pid" type="text" ng-model="pid">
+      </div>
+    </div>
+-->
+    <div class="form-group">
+      <label class="col-lg-2 control-label">price</label>
+      <div class="col-lg-8">
+        <input class="form-control" readonly placeholder="price" type="text" ng-model="price">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">date</label>
+      <div class="col-lg-8">
+        <input class="form-control" readonly placeholder="price" type="text" ng-model="dtime">
+      </div>
+    </div>
+<!--
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Date-Time</label>
+      <div class="col-lg-8">
+        <input class="form-control"readonly placeholder="Date-Time" type="text" ng-model="dtime">
+      </div>
+    </div>-->
+<button class="btn btn-primary" ng-click="buy()">Buy item</button>
+<button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotocustomerfunctions()"></button>
+    </form>
+</div>

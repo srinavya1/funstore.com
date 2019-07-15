@@ -1,0 +1,44 @@
+
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Payment Details</legend>
+        
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Credit Card Type</label>
+      <div class="col-lg-4">
+        <select class="form-control"><option>VISA</option>
+          <option>MASTERCARD</option>
+          <option>DISCOVER</option></select>
+      </div>
+    </div>  
+      
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Card Number</label>
+      <div class="col-lg-4">
+        <input class="form-control" type="text">
+      </div>
+    </div>  
+      
+      <div class="form-group">
+      <label class="col-lg-2 control-label">Security Number</label>
+      <div class="col-lg-4">
+        <input class="form-control" type="text">
+      </div>
+    </div>
+      
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Expiration Date</label>
+      <div class="col-lg-4">
+        <input class="form-control" type="text">
+      </div>
+    </div>
+      
+      <div class="form-group">
+      <div class="col-lg-4 col-lg-offset-2">
+        <button type="reset" class="btn btn-danger" ng-click="payc.goToCustomerfunctions()">Cancel</button>
+        <button type="submit" class="btn btn-Warning" ng-click="payc.makeAlert()">Place Order</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>

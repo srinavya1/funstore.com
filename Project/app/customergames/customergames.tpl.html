@@ -1,0 +1,30 @@
+<div><button class="btn btn-primary glyphicon glyphicon-circle-arrow-left" ng-click="gotocustomerfunctions()"></button></div>
+<div>
+
+
+  <div class="well">
+  <!--<input type="text"  placeholder="search here" ng-change="startsearch()" ng-model="searchval"></input>-->
+  <input class="form-control" placeholder="search here" type="text" ng-change="startsearch()" ng-model= "searchval">
+  </div>
+  <div data-ng-repeat="game in gamelist" >
+
+
+       <span class="col-md-6 mypadding">
+
+           <a href="#"><img src="{{game.id}}.jpeg" class="myimages"></a>
+           <div>
+           <p>Name:  {{game.Name}}</p>
+           </div>
+           <div>
+           <p>Genre: {{game.Genre}}</p>
+           </div>
+               <div>
+          <button class="btn btn-warning" ng-click="gotobuy(game.id)">Buy</button>
+           <button class="btn btn-danger" ng-click="gotorent(game.id)">Rent</button>
+           </div>
+       </span>
+  </div>
+
+
+
+</div>

@@ -1,0 +1,20 @@
+
+
+
+     <span class="col-md-6 mypadding">
+
+         <a href="#"><img src="{{movie.id}}.jpeg" class="myimages"></a>
+         <div>
+         <p>Name:  {{movie.pro}}</p>
+         </div>
+         <div>
+         <p>Actor: {{movie.Actor}}</p>
+         </div>
+         <div>
+         <p>id: {{movie.id}}</p>
+         </div>
+             <div>
+        <button class="btn btn-warning" ng-click="gotoupdate(movie.id)">update</button>
+         <button class="btn btn-danger" ng-click="deletemovie(movie.id)">delete</button>
+         </div>
+     </span>

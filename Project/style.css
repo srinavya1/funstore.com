@@ -1,0 +1,80 @@
+body {
+  /*  background-image: url(image1.jpeg);
+    background-attachment: fixed;
+    background-size: cover; */
+    padding-top: 70px;
+}
+
+
+
+#content {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+.new1 {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+.homeclass {
+    text-align: center;
+}
+
+.test{
+    height:50px;
+    width:300px;
+}
+
+.moviecontent {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+.movies {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+    border-radius: 25px;
+    padding-bottom: 60px;
+}
+
+.myBtn {
+    width:150px;
+}
+
+.textPadding {
+    padding-bottom: 20px;
+}
+
+.myimages {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.mypadding {
+    padding: 10px;
+}
+
+.mybuttons {
+    width: 300px;
+}
+
+.myimagesnew {
+    height: 300px;
+    width: 300px;
+}
